@@ -9,7 +9,13 @@ shop_app/
             gamepad.png
     ios/
     lib/
-        main.dart
+           main.dart
+        models/
+            shop_item.dart
+        screens/
+            cart_screen.dart
+            home_screen.dart
+            wishlist_screen.dart
     pubspec.yaml
     README.pdf
 
@@ -25,6 +31,8 @@ To configure the Flutter Console Shop App, follow these steps:
     console.png
     controller.png
     gamepad.png
+
+(Images are in assets folder)
 
 -Open the pubspec.yaml file and add the following under the flutter: section (ensure proper indentation):
 
@@ -50,7 +58,9 @@ assets:
 
 4. Screenshots
     Below are screenshots of the application running on the Android Emulator.
-     ![Screenshot (13).png](Images/Screenshot%20%2813%29.png)
-     ![Screenshot (14).png](Images/Screenshot%20%2814%29.png)
+    ![Screenshot (15).png](Images/Screenshot%20%2815%29.png)
+    ![Screenshot (16).png](Images/Screenshot%20%2816%29.png)
+    ![Screenshot (17).png](Images/Screenshot%20%2817%29.png)
+    ![Screenshot (18).png](Images/Screenshot%20%2818%29.png)
 
 these are the screenshots of the application demonstrating Home Page , items with there name and images , and cart sub total at the top.
